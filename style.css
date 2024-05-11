@@ -56,17 +56,17 @@ body{
     color: rgb(139, 153, 156);
 }
 
-.imagem {
+#imagem {
     display: flex;
-    /*align-items: center;*/
-    margin-bottom: 10%;
+    width: 450px; 
+    height: 450px;
 }
 
 #playlist{
     display: flex;
     justify-content: center;
     margin-bottom: 15%;
-    margin-top: 5%;
+    margin-top: 15%;
 }
 
 #progress-bar {
@@ -84,7 +84,6 @@ body{
     border-radius: 15px;
 
 }
-
 
 button{
     background-color: inherit;
