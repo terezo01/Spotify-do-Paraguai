@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>   
+    <div class="everything">
+        <h3 id="playlist">Playlist Do Théo</h3>
+        <img src="images/The_life_of_pablo_alternate.jpg" alt="Disc cover." width="450" height="450" id="imagem"></img>
+        <audio id="audio"  src="/songs/Father Stretch My Hands Pt. 1.mp3"></audio>
+        <div id="below-cover">
+            <div id="song info">
+                <div id="song-name">Nome da musica</div>
+                <div id="band-name">Nome da banda</div>
+            </div>
+            <button id="like"><i class="bi bi-heart"></i></button>
+        </div>
+        <div id="progress-bar">
+            <div id="current-progress"></div>
+        </div>
+        <div id="button-container">
+            <button id="shuffle" class="button"><i class="bi bi-shuffle"></i></button>
+            <button id="previous" class="button"><i class="bi bi-skip-start-fill"></i></button>
+            <button id="play-pause" class="button"><i class="bi bi-play-circle-fill"></i></button>
+            <button id="next" class="button"><i class="bi bi-skip-end-fill"></i></button>
+            <button id="repeat" class="button"><i class="bi bi-repeat"></i></button>
+        </div>
+    </div>
+    <script src="bighead.js"></script>
+</body>
+</html>

@@ -1,0 +1,95 @@
+body{
+    background-image: linear-gradient(rgb(1, 46, 88), rgb(43, 54, 0));
+    height: 100vh;
+    color: white;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#below-cover {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 8% 0 4% 0 ;
+    
+}
+
+#button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.button {
+    font-size: 1.5em;
+}
+
+#previous {
+    font-size: 3em;
+}
+
+#next {
+    font-size: 3em;
+}
+
+#like {
+    font-size: 2em;
+    color: rgb(139, 153, 156);
+}
+
+#play-pause {
+    font-size: 4em;
+}
+
+#song-name {
+    font-size: 1.5em;
+    font-weight: bolder;
+}
+
+#band-name {
+    font-size: 0.9em;
+    color: rgb(139, 153, 156);
+}
+
+.imagem {
+    display: flex;
+    /*align-items: center;*/
+    margin-bottom: 10%;
+}
+
+#playlist{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15%;
+    margin-top: 5%;
+}
+
+#progress-bar {
+    background-color: rgb(139, 153, 156);
+    height: 3px;
+    width: 100%;
+    border-radius: 15px;
+    margin-bottom: 1.5em;
+}
+
+#current-progress {
+    background-color: white;
+    height: 3px;
+    width: 27%;
+    border-radius: 15px;
+
+}
+
+
+button{
+    background-color: inherit;
+    color: white;
+    border: none;
+}
+
+
